@@ -1,0 +1,14 @@
+
+
+
+sudo apt-get install wiringpi
+cd home/pi
+sudo git clone https://github.com/tftelkamp/single_chan_pkt_fwd
+make
+sudo ./dual_chan_pkt_fwd
+sudo make install
+
+
+
+
+notes: after the command "sudo ./dual_chan_pkt_fwd" take note of mac address to enter in "TTN gateway data".
